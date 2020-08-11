@@ -24,6 +24,7 @@
 }
 input[type=text],
 input[type=email],
+input[type=password],
 textarea{
     width: 100%;
     padding-left: 10px;
@@ -33,15 +34,7 @@ textarea{
     border: 1px solid #ccc;
     outline: none;
 }
-input#nao{
-    margin-left: 30px;
-}
-textarea{
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
-}
+
 input[type=submit]{
     display: block;
     background-color: #ccc;
