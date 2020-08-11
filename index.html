@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Only_me</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Front-end</title>
     </head>
     <body>
-
-        <h1>Teste</h1>
-        <p>esp8266.</p>
-
+        <form action="/action_page.php">
+            <label for="fname">email:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">senha:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Homen</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Mulher</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Outro</label><br><br>
+            <input type="submit" value="proximo">
+          </form>
     </body>
 </html>
