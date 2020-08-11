@@ -1,23 +1,39 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pagina Front-end</title>
-    </head>
-    <body>
-        <form action="/action_page.php">
-            <label for="fname">email:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">senha:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br><br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Homen</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Mulher</label><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Outro</label><br><br>
-            <input type="submit" value="proximo">
-          </form>
-    </body>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post"> 
+        <p>Pagina de cadastro</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        
+        <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+ 
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>        
+        <div class="field radiobox">
+            <span>Sexo:</span>
+            <input type="radio" name="sexo" id="Masculino" value="sim" checked><label for="sim">Masculino</label>
+            <input type="radio" name="sexo" id="Feminino" value="nao"><label for="nao">Feminino</label>
+        </div><br><br>
+        <!-- <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+  -->
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+</body>
 </html>
