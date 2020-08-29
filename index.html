@@ -1,38 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Formulário HTML</title>
+    <title>login</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
     <body>
-        <center>
-            <form action="dados.php" class="formulario" method="post"> 
-                <p>Pagina de cadastro</p>
-                
-                <div class="field">
-                    <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
-                </div>
-                
-                <div class="field">
-                    <label for="email">E-Mail:</label>
-                    <input type="email" id="E-Mail" name="E-Mail" placeholder="Digite seu E-Mail">
-                </div>
-        
-                <div class="field">
-                    <label for="senha">Sua Senha:</label>
-                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha*" required>
-                </div>
-
-                <div class="field radiobox">
-                    <span>sexo:</span>
-                    <input type="radio" name="sexo" id="Masculino" value="sim" checked><label for="sim">Masculino</label>
-                    <input type="radio" name="sexo" id="Feminino" value="nao"><label for="nao">Feminino</label>
-                </div><br><br>
-
-                <input type="submit" name="acao" value="Enviar">
-            </form>
-        </center>
+        <form class="container">
+            <h1>LOGIN</h1>
+            <input class="input" type="text" placeholder="Usuario">
+            <input class="input" type="password" placeholder="Senha">
+            <input  class="botao" type="submit" value="login">
+        </form>
     </body>
 </html>
