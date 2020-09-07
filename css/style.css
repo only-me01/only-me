@@ -26,7 +26,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #58af9b;
+    background-color: #5893af;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;
@@ -44,7 +44,7 @@ body {
     color: #fff;
 }
 .title-second {
-    color: #58af9b;
+    color: #5896af;
 }
 .description {
     font-size: 14px;
@@ -55,7 +55,7 @@ body {
     color: #fff;
 }
 .description-second {
-    color: #7f8c8d;
+    color: #5896af;
 }
 .btn {
     border-radius: 15px;
@@ -77,17 +77,17 @@ body {
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color: #5896af;
 }
 .btn-second {
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #5896af;
+    border: 1px solid #5896afb;
     transition: background-color .5s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid ##5896af;
+    color: #5896af;
 }
 .first-content {
     display: flex;
@@ -116,9 +116,9 @@ body {
     transition: background-color .5s;
 }
 .link-social-media:hover .item-social-media{
-    background-color: #58af9b;
+    background-color: #5896af;
     color: #fff;
-    border-color: #58af9b;
+    border-color: #5896af;
 }
 .list-social-media {
     display: flex;
@@ -156,7 +156,7 @@ input:-webkit-autofill
     margin: 8px;
 }
 .icon-modify {
-    color: #7f8c8d;
+    color: #5896af;
     padding: 0 5px;
 }
 
@@ -303,21 +303,21 @@ input:-webkit-autofill
 
     from {
         left: 0;
-        width: 40%;
+        width: 50%;
     }
 
     25% {
         left: 5%;
-        width: 50%;
+        width: 60%;
     }
 
     50% {
-        left: 25%;
+        left: 30%;
         width: 60%;
     }
 
     75% {
-        left: 45%;
+        left: 50%;
         width: 50%;
     }
 
